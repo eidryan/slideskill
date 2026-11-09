@@ -14,6 +14,10 @@ Skill de **direção de apresentações**, não um pacote de templates. Primeiro
 4. Use [references/catalog.jsonl](references/catalog.jsonl) como biblioteca semântica inicial; registros são **exemplos originais de método**, não capturas de decks externos.
 5. Veja o manifesto em [examples/demo-consulting.json](examples/demo-consulting.json).
 
+## Instalação
+
+Veja [docs/INSTALL.md](docs/INSTALL.md) para instalação em Codex ou Claude Code e como atualizar a skill. O repositório completo deve permanecer dentro da pasta da skill para preservar os arquivos auxiliares.
+
 ## Ferramentas
 
 Requisitos: Python 3.10+ e Node.js 20+. O validador e a busca usam apenas Python padrão; o renderizador precisa de PptxGenJS.
