@@ -1,0 +1,48 @@
+name: verify
+on:
+  push:
+    branches: ["main", "feat/**"]
+  pull_request:
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate manifest and catalog
+        run: |
+          python scripts/validate_manifest.py examples/demo-consulting.json
+          python scripts/search_library.py --purpose explain_mechanism --relation decomposition --limit 3
+          python -m unittest discover -s tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install PowerPoint generator
+        run: npm install --no-audit --no-fund
+      - name: Generate editable PPTX demo
+        run: npm run build:demo
+      - name: Inspect PPTX archive and speaker notes
+        run: |
+          python - <<'PY'
+          import pathlib, zipfile
+          path = pathlib.Path("dist/demo-consulting.pptx")
+          with zipfile.ZipFile(path) as z:
+              broken = z.testzip()
+              assert broken is None, broken
+              files = z.namelist()
+              slides = [p for p in files if p.startswith("ppt/slides/slide") and p.endswith(".xml")]
+              assert len(slides) == 6, slides
+              assert any(p.startswith("ppt/notesSlides/notesSlide") and p.endswith(".xml") for p in files), "speaker notes absent"
+          print("PPTX package structurally valid; visual QA still required")
+          PY
+      - name: Publish PPTX demo artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: slide-director-demo-pptx
+          path: dist/demo-consulting.pptx
+          if-no-files-found: error
+          retention-days: 14

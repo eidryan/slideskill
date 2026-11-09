@@ -1,0 +1,285 @@
+{
+  "schema_version": "0.1",
+  "meta": {
+    "title": "Slide Director — demonstração do método",
+    "audience": "Equipe interna de produto",
+    "purpose": "Explicar a abordagem da skill e o fluxo de validação antes de adotar o sistema",
+    "mode": "live",
+    "language": "pt-BR",
+    "data_status": "illustrative",
+    "duration_minutes": 9,
+    "assumptions": [
+      "Exemplos conceituais; números são fictícios e não medem desempenho real.",
+      "Gerador visual de escopo limitado, sujeito a QA no PowerPoint."
+    ]
+  },
+  "slides": [
+    {
+      "id": "abertura",
+      "role": "framing",
+      "title": "Slides melhores dependem de decisões, não apenas de templates",
+      "claim": "A qualidade visual deriva da adequação entre argumento e forma.",
+      "relation": "thesis",
+      "layout": "thesis_cover",
+      "evidence": [
+        {
+          "kind": "conceptual",
+          "text": "Método demonstrativo centrado no vínculo entre tese, evidência e visual.",
+          "source": "Casebook original, exemplo conceitual"
+        }
+      ],
+      "visual_plan": {
+        "subtitle": "Uma metodologia de argumento, biblioteca e validação",
+        "signature": "Tese  →  Estrutura  →  Evidência  →  QA"
+      },
+      "notes": [
+        "Abrir com a pergunta: como escolhemos uma representação?",
+        "Explicar que beleza sem fidelidade semântica não basta.",
+        "Próximo: exemplo de decomposição."
+      ],
+      "decision_log": {
+        "selected_reason": "Abertura com uma tese única, evitando lista introdutória.",
+        "alternatives_rejected": [
+          "Cards com funcionalidades sem uma ideia central."
+        ],
+        "reference_ids": [
+          "original-opening-01"
+        ]
+      }
+    },
+    {
+      "id": "decomposicao",
+      "role": "explanation",
+      "title": "O custo total pode ser decomposto em volume × custo unitário",
+      "claim": "Uma relação multiplicativa pede ligação explícita entre fatores e resultado.",
+      "relation": "decomposition",
+      "layout": "driver_tree",
+      "evidence": [
+        {
+          "kind": "conceptual",
+          "text": "Custo total = quantidade × custo por unidade, como identidade ilustrativa.",
+          "source": "Casebook original, exemplo conceitual"
+        }
+      ],
+      "visual_plan": {
+        "root": "Custo total",
+        "drivers": [
+          {
+            "label": "Volume",
+            "detail": "quantidade"
+          },
+          {
+            "label": "Custo unitário",
+            "detail": "valor por unidade"
+          }
+        ],
+        "operator": "×",
+        "caption": "A relação matemática determina a forma da árvore."
+      },
+      "notes": [
+        "Mostrar o significado de cada ramo.",
+        "A árvore não serve para listas de itens desconectados.",
+        "Próximo: contraste entre abordagens."
+      ],
+      "decision_log": {
+        "selected_reason": "A árvore torna os direcionadores auditáveis e conectados.",
+        "alternatives_rejected": [
+          "Dois cards independentes esconderiam o operador."
+        ],
+        "reference_ids": [
+          "original-driver-tree-01"
+        ]
+      }
+    },
+    {
+      "id": "comparacao",
+      "role": "comparison",
+      "title": "A skill acrescenta decisões que um template sozinho não resolve",
+      "claim": "Método e template diferem em responsabilidade editorial.",
+      "relation": "comparison",
+      "layout": "comparison_matrix",
+      "evidence": [
+        {
+          "kind": "conceptual",
+          "text": "Comparação conceitual dos objetivos de duas abordagens, não pesquisa empírica.",
+          "source": "Casebook original, exemplo conceitual"
+        }
+      ],
+      "visual_plan": {
+        "headers": [
+          "Critério",
+          "Template estático",
+          "Slide Director"
+        ],
+        "rows": [
+          [
+            "Tese por slide",
+            "Não garante",
+            "Exige planejamento"
+          ],
+          [
+            "Relação lógica",
+            "Layout predefinido",
+            "Escolha por semântica"
+          ],
+          [
+            "Evidências",
+            "Dependem do autor",
+            "Rastreabilidade requerida"
+          ],
+          [
+            "QA",
+            "Frequentemente manual",
+            "Rubrica e gates"
+          ]
+        ],
+        "highlight_column": 2,
+        "caption": "Diferenças conceituais, sem benchmark de desempenho."
+      },
+      "notes": [
+        "Tratar a comparação como conceitual.",
+        "Evitar afirmar desempenho de soluções específicas sem teste.",
+        "Próximo: evidência quantitativa fictícia."
+      ],
+      "decision_log": {
+        "selected_reason": "Matriz conserva os mesmos critérios entre alternativas.",
+        "alternatives_rejected": [
+          "Cards paralelos dificultariam comparação linha a linha."
+        ],
+        "reference_ids": [
+          "original-comparison-01"
+        ]
+      }
+    },
+    {
+      "id": "evidencia",
+      "role": "quantitative_example",
+      "title": "Exemplo fictício: a magnitude fica clara com uma escala comum",
+      "claim": "Barras com mesma linha de base tornam valores comparáveis.",
+      "relation": "magnitude_comparison",
+      "layout": "bar_chart",
+      "evidence": [
+        {
+          "kind": "quantitative",
+          "text": "Valores inteiramente sintéticos: A=12, B=25, C=18, D=31.",
+          "source": "DADOS FICTÍCIOS — demonstração, não usar como evidência externa"
+        }
+      ],
+      "visual_plan": {
+        "series": [
+          {
+            "label": "A",
+            "value": 12
+          },
+          {
+            "label": "B",
+            "value": 25
+          },
+          {
+            "label": "C",
+            "value": 18
+          },
+          {
+            "label": "D",
+            "value": 31
+          }
+        ],
+        "units": "pontos fictícios",
+        "highlight": "D",
+        "caption": "DADOS FICTÍCIOS · Exemplo de codificação visual, não resultado real."
+      },
+      "notes": [
+        "Não associar este gráfico a desempenho de modelos.",
+        "Enfatizar origem comum e zero na base.",
+        "Próximo: workflow operacional."
+      ],
+      "decision_log": {
+        "selected_reason": "Barras com base comum são apropriadas para magnitude categórica.",
+        "alternatives_rejected": [
+          "Quatro números gigantes ocultariam a comparação."
+        ],
+        "reference_ids": [
+          "original-evidence-01"
+        ]
+      }
+    },
+    {
+      "id": "fluxo",
+      "role": "process",
+      "title": "A publicação só ocorre depois de renderização e revisão",
+      "claim": "O controle de qualidade precisa preceder a entrega.",
+      "relation": "sequence",
+      "layout": "sequence",
+      "evidence": [
+        {
+          "kind": "conceptual",
+          "text": "Sequência de processo proposta pela metodologia, não automação já validada.",
+          "source": "Casebook original, exemplo conceitual"
+        }
+      ],
+      "visual_plan": {
+        "steps": [
+          "Storyline",
+          "Storyboard",
+          "Manifesto",
+          "PPTX",
+          "Render + QA"
+        ],
+        "caption": "A revisão pode devolver o deck a etapas anteriores."
+      },
+      "notes": [
+        "Cada seta indica precedência operacional.",
+        "Render e QA são gates, não extras.",
+        "Próximo: piloto com casos diversos."
+      ],
+      "decision_log": {
+        "selected_reason": "Uma sequência com conectores revela a dependência de entrega.",
+        "alternatives_rejected": [
+          "Bullets não tornariam a ordem obrigatória explícita."
+        ],
+        "reference_ids": [
+          "original-sequence-01"
+        ]
+      }
+    },
+    {
+      "id": "fechamento",
+      "role": "recommendation",
+      "title": "O piloto deve validar qualidade antes de ampliar a biblioteca",
+      "claim": "Comparar o método com baselines antes de investir em escala.",
+      "relation": "recommendation",
+      "layout": "recommendation",
+      "evidence": [
+        {
+          "kind": "conceptual",
+          "text": "Plano experimental proposto: três decks de perfis distintos e revisão independente.",
+          "source": "Casebook original, exemplo conceitual"
+        }
+      ],
+      "visual_plan": {
+        "decision": "Executar um piloto controlado",
+        "rationale": "Qualidade semântica, editabilidade e retrabalho devem ser mensurados.",
+        "actions": [
+          "Escolher 3 casos com fontes",
+          "Gerar baselines equivalentes",
+          "Renderizar e avaliar cegamente"
+        ],
+        "caption": "Meta: nenhum bloqueador e ganho medido frente ao baseline."
+      },
+      "notes": [
+        "Encerrar com a decisão pedida.",
+        "Não prometer qualidade sem teste real.",
+        "Próximo passo: rodar benchmarks."
+      ],
+      "decision_log": {
+        "selected_reason": "Uma recomendação explícita conclui o argumento do deck.",
+        "alternatives_rejected": [
+          "Slide final 'Obrigado' não encaminharia decisão."
+        ],
+        "reference_ids": [
+          "original-close-01"
+        ]
+      }
+    }
+  ]
+}

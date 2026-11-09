@@ -1,0 +1,14 @@
+{
+  "name": "slideskill-director",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Slide Director v0.1: editable PPTX demo and evidence-first slide method",
+  "scripts": {
+    "build:demo": "node scripts/build_deck.mjs examples/demo-consulting.json dist/demo-consulting.pptx",
+    "test": "python3 -m unittest discover -s tests -v"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}
