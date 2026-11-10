@@ -10,11 +10,12 @@ projects/
   _template/                   copie esta pasta para começar um projeto novo
   admfin-precificacao/         caso aprovado, usado como regressão
   logistica-efeito-chicote/    caso em andamento (seminário de 12 min)
+  biocer-materiais/            caso em andamento (redesenho de deck existente, 20 min)
 ```
 
 ## Como adicionar um projeto
 
-1. `cp -r projects/_template projects/<area>-<tema>` (minúsculas, sem acento, hífen).
+1. `python3 scripts/new_project.py <area>-<tema>` (minúsculas, sem acento, hífen). Ele copia `_template/`. Também vale `cp -r`.
 2. Preencha `README.md` (status e o que o caso testa) e `brief.md` (propósito, público, tempo, restrições).
 3. Registre cada fonte em `sources.md`. Guarde só o que pode ser público (veja abaixo). Dados próprios entram em `data/`.
 4. Escreva `storyboard.md` antes de qualquer design: tese, SCQ e, por slide, título de ação, evidência, relação lógica, visual e lista de cortes.

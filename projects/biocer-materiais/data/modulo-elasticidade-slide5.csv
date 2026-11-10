@@ -1,0 +1,10 @@
+material,tipo,modulo_min_gpa,modulo_max_gpa,fonte
+Osso trabecular,tecido,0.1,2,"Gráfico do slide 5 do deck v1; sem linha equivalente na Tabela 1"
+Osso cortical,tecido,7,30,"Tabela 1 e slide 5"
+Vidro bioativo 45S5,biocerâmica,30,40,"Tabela 1 e slide 5"
+Hidroxiapatita densa,biocerâmica,70,120,"Tabela 1 e slide 5"
+Liga Ti-6Al-4V,liga de implante,105,115,"Slide 5; fonte não indicada no relatório"
+Aço inox 316L,liga de implante,190,200,"Slide 5; fonte não indicada no relatório"
+Zircônia Y-TZP,biocerâmica,200,210,"Tabela 1 e slide 5"
+Liga CoCrMo,liga de implante,210,240,"Slide 5; fonte não indicada no relatório"
+Alumina,biocerâmica,380,400,"Slide 5 mostra 380 a 400; a Tabela 1 mostra 380. Divergência a resolver."

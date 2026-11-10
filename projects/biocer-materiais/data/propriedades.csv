@@ -1,0 +1,7 @@
+material,classe,densidade_g_cm3,modulo_gpa,flexao_mpa,compressao_mpa,k_ic_mpa_m05,dureza_hv,limitacao_principal,fonte
+Alumina,bioinerte,3.98,380,400-600,~4000,3.5-4.5,~2000,tenacidade,"Tabela 1 do relatório (Hench e Wilson 1993; Piconi e Maccauro 1999; Park e Lakes 2007; Ratner et al. 2013)"
+Y-TZP,bioinerte,6.05,200-210,900-1200,~2000,6-10,~1200,degradação em meio aquoso,"Tabela 1 do relatório"
+ZTA,bioinerte,4.37,~350,1000-1400,~4700,5.5-7,~1900,custo,"Tabela 1 do relatório"
+HA densa,bioativa,3.16,70-120,50-115,300-900,0.7-1.2,~500,resistência mecânica,"Tabela 1 do relatório"
+Vidro 45S5,bioativa,2.7,30-40,40-60,~500,~0.6,~460,resistência mecânica,"Tabela 1 do relatório"
+Osso cortical,não se aplica,1.8-2.0,7-30,50-150,100-230,2-12,~60,não se aplica,"Tabela 1 do relatório"

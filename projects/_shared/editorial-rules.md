@@ -79,3 +79,16 @@ A especificação slide a slide está em `projects/admfin-precificacao/storyboar
 4. Busca pelos termos proibidos.
 5. Abrir o arquivo sem pedido de reparo.
 6. Registrar em `qa.md` o que não foi testado.
+
+## 9. Sinais de "cara de IA" em decks redesenhados
+
+Vistos no deck v1 do caso `biocer-materiais`. Se aparecerem, o redesenho não terminou:
+
+- Paleta terracota com bege e traço laranja curto sob o título.
+- Rótulo de seção pequeno em caixa-alta colorida acima de cada título.
+- Grade repetida de 3 ou 4 cartões com borda colorida e texto miúdo.
+- Gráficos de outra biblioteca, com fonte diferente da do slide, caixas translúcidas e legenda minúscula.
+- Título de tópico ("Aplicações em ortopedia") no lugar de uma conclusão.
+- Pergunta retórica na abertura.
+- O mesmo destaque colorido usado para coisas diferentes. Quando uma classificação organiza o deck (por exemplo, a resposta do tecido), a cor pode marcar a classe, e só ela.
+

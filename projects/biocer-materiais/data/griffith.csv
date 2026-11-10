@@ -1,0 +1,4 @@
+material,k_ic_mpa_m05,defeito_um,y,sigma_c_mpa,formula
+Hidroxiapatita,1,50,1,80,sigma_c = K_IC / (Y * sqrt(pi * a))
+Alumina,4,50,1,320,sigma_c = K_IC / (Y * sqrt(pi * a))
+Y-TZP,8,50,1,640,sigma_c = K_IC / (Y * sqrt(pi * a))
