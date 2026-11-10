@@ -1,3 +1,7 @@
+# LEGADO — NÃO USAR COMO REFERÊNCIA VISUAL PADRÃO
+
+**Feedback humano da iteração 004 rejeitou esta linguagem de SVG programático por parecer desenho de HTML/UI.** As 12 composições consideradas candidatas **não receberam aprovação estética**. Retidas para diagnóstico, comparação e testes de programação, não para orientar a direção visual de novos decks. A fonte primária de scouting passa a ser [references/REAL_VISUAL_BOARD.md](../../references/REAL_VISUAL_BOARD.md), e a política está em [docs/ART_DIRECTION_PIVOT.md](../../docs/ART_DIRECTION_PIVOT.md).
+
 # Visual Casebook · exemplos originais
 
 Esta é uma galeria para **recuperação e crítica**, não um conjunto de layouts obrigatórios. Cada exemplo SVG é autoral, escalável e acompanhado de uma ficha com intent, ontology, use_when, avoid_when e decisões de codificação.

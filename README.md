@@ -4,6 +4,9 @@ Skill de **direção de apresentações**, não um pacote de templates. Primeiro
 
 ## Estado
 
+**Pivô 004:** a biblioteca visual antiga de SVG e o gerador de seis layouts são **legados experimentais**, não o caminho de produção. Consulte [direção de arte](docs/ART_DIRECTION_PIVOT.md), [board de figuras reais](references/REAL_VISUAL_BOARD.md) e [auditoria v3](goals/slide-quality-loop/iterations/004-html-look-pivot.md).
+
+
 **v0.1 — fundação em desenvolvimento.** Inclui método, árvore de decisão, catálogo inicial de 12 precedentes originais, manifesto de exemplo, scripts de busca/validação e um gerador simples de PowerPoint. Não afirma reproduzir automaticamente o visual de consultorias, nem indexar a biblioteca privada de ~4.200 arquivos descrita no briefing. O acervo privado não foi importado.
 
 ## Comece aqui
