@@ -25,7 +25,7 @@ def validate(p, root=ROOT, require_approved=False):
         else:warnings.append('PENDING_DESIGN: no production PPTX is authorized')
         return errors,warnings
     review=p.get('human_review') or {}
-    if review.get('status')!='accepted' or not review.get('record_url','').startswith('https://'):
+    if review.get('status')!='accepted' or not (review.get('record_url') or '').startswith('https://'):
         errors.append('Explicit human acceptance with review URL required')
     cands=p.get('candidates',[])
     if len(cands)<2:errors.append('Two separate design-image candidates required')
