@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1-design-handoff",
+  "iteration": "008",
+  "project": "projects/logistica-efeito-chicote",
+  "stage": "PENDING_DESIGN",
+  "claim": "Pedidos a montante podem amplificar pequenas variações da demanda final.",
+  "source_data": [
+    "projects/logistica-efeito-chicote/data/ec2-indicadores-walmart-macys.csv"
+  ],
+  "precedents": [
+    {
+      "id": "slidepoise-editorial",
+      "url": "https://github.com/henryhyw/slidepoise/tree/main/examples/personal-thinking-system",
+      "learning": "Composição editorial com repertório fotográfico; não copiar material protegido."
+    },
+    {
+      "id": "datawrapper",
+      "url": "https://www.datawrapper.de/academy/examples-of-datawrapper-dot-charts",
+      "learning": "Integração de rótulos em visualização quantitativa; sem estética de dashboard."
+    },
+    {
+      "id": "financial-times",
+      "url": "https://ft-interactive.github.io/visual-vocabulary/",
+      "learning": "Selecionar codificação de dados adequada ao argumento."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "A",
+      "design_tool": "Canva",
+      "design_id": "DAHahEykag4",
+      "design_url": "https://www.canva.com/design/DAHahEykag4/",
+      "pages": 10,
+      "rationale": "Exploração editorial ampla com 10 slides, fotografia contextual e dados."
+    },
+    {
+      "id": "B",
+      "design_tool": "Canva",
+      "design_id": "DAHahEijY4c",
+      "design_url": "https://www.canva.com/design/DAHahEijY4c/",
+      "pages": 3,
+      "rationale": "Atlas tipográfico alternativo em três slides-chave."
+    }
+  ],
+  "selected": null,
+  "human_review": {
+    "status": "pending",
+    "record_url": null
+  },
+  "blocked_reason": "Sem aprovação estética humana, sem imagem de composição transferida para o repo/hashes, sem export PPTX validado e correções de texto do design A pendentes.",
+  "reconstruction": "Se aprovado: textos, gráficos de estoque e legendas editáveis; fotos apenas para contexto com licença conferida."
+}
