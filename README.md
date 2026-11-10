@@ -48,3 +48,7 @@ O arquivo gerado fica em dist/demo-consulting.pptx (não versionado). É um **pr
 - O resultado precisa ser **renderizado e inspecionado**, não apenas salvo como PPTX.
 
 Contribuições e materiais de terceiros: consulte [docs/SOURCES.md](docs/SOURCES.md) e [references/README.md](references/README.md) antes de incorporar exemplos externos.
+
+## Goal ativo: qualidade visual e loop de iteração
+
+Acompanhe o [goal com pesquisa → hipótese → aplicação → geração → crítica → feedback](goals/slide-quality-loop/GOAL.md) e a [biblioteca de 12 exemplos originais + 4 antiexemplos](examples/visual-casebook/GALLERY.md). Esta é uma galeria de **candidatos**, não uma coleção de templates aprovados. A integração real do SlidePoise e o QA final no PowerPoint continuam pendentes.

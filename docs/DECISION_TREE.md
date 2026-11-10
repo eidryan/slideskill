@@ -60,3 +60,7 @@ Busca inicial:
 python3 scripts/search_library.py --purpose compare_options --relation comparison --limit 5
 ~~~
 A recuperação usa regras escritas de 'use_when/avoid_when'. Similaridade textual é uma pista, nunca autorização para copiar.
+
+## Extensão científica experimental
+
+Quando uma categoria como `sequence` envolve fenômeno físico, priorizar as ontologias detalhadas de [SEMANTIC_VISUALS.md](SEMANTIC_VISUALS.md): `physical_mechanism`, `spatial_structure`, `state_transition`. Ver [16 exemplos e antiexemplos](../examples/visual-casebook/GALLERY.md). A forma só é aceita quando representa objetos e relações do domínio, sem sugerir escala falsa.
