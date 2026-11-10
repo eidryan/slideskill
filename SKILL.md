@@ -5,6 +5,8 @@ description: Planeja, estrutura, desenha, gera e audita apresentações persuasi
 
 # Slide Director
 
+**GATE 009 · MODO EVIDÊNCIA:** Antes de gerar qualquer deck novo, seguir a checklist G0–G9 em docs/EVIDENCE_DECK_MODE.md: backlog, SCQA/storyline, storyboard com evidência por tese, fontes, benchmark, gráfico nativo quando aplicável, QA no PowerPoint, revisor independente e aprovação humana. A validação scripts/validate_evidence_release.py --release bloqueia publicação se alguma etapa faltar. Os testes do CI não aprovam estética.
+
 **ESCOLHA O MODO ANTES DOS GATES.** Deck de argumento, dados ou acadêmico (conteúdo em texto, número, relação lógica): siga [docs/EVIDENCE_DECK_MODE.md](docs/EVIDENCE_DECK_MODE.md), a receita do Adm Fin v7 aprovado, e os gates de imagem abaixo NÃO se aplicam. Slide cujo conteúdo é objeto ou fenômeno físico (prótese, micrografia, equipamento): aplique o pivô e os gates de imagem abaixo, só nesses slides.
 
 **GATE 007: STOP CODE-FIRST ART DIRECTION.** Human feedback on iterations 001–006 confirms that layouts constructed first as coordinates/shapes still look like HTML. For a production design, read docs/DESIGN_BEFORE_PPTX.md. Create/inspect at least two real full-size candidate slide images with grounded precedents; obtain explicit user acceptance and record image hashes; run scripts/validate_design_handoff.py <manifest> --require-approved BEFORE calling PPTX reconstruction. Without it, mark PENDING_DESIGN and DO NOT build another code-only deck pretending it validates design. The legacy build_deck.mjs is a technical smoke test, not a production editorial workflow.

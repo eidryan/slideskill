@@ -1,0 +1,53 @@
+{
+  "schema_version": "evidence-gates-v1",
+  "project": "projects/logistica-efeito-chicote",
+  "iteration": "009",
+  "status": "REJECTED",
+  "producer": "slide-generator-agent",
+  "renderer": "LibreOffice",
+  "requires_native_chart": true,
+  "pptx_path": null,
+  "original_files": "Generated PPTX/PDF and code exist as conversation artifacts only, not as approved repository baseline.",
+  "gates": {
+    "backlog_coverage": {
+      "status": "fail",
+      "reason": "No v9-specific backlog by ID with coverage showing how feedback was resolved."
+    },
+    "storyline_scqa": {
+      "status": "blocked",
+      "reason": "SCQA exists on slide 2, but no independent review of the full title chain for this new v9 deck."
+    },
+    "storyboard_evidence": {
+      "status": "fail",
+      "reason": "v9 lacked a checked per-slide claim-to-evidence mapping; stock indicators do not demonstrate order variance."
+    },
+    "source_audit": {
+      "status": "blocked",
+      "reason": "Lee 1997 and Stanford example are traceable; original EC2 financial statements and sample period absent; no independent source audit."
+    },
+    "visual_benchmark": {
+      "status": "fail",
+      "reason": "No actual comparison of rendered v9 pages with 2–3 documented high-density consulting slide precedents before building."
+    },
+    "pptx_artifact": {
+      "status": "blocked",
+      "reason": "PPTX exists in the user conversation but is rejected; no release-quality verified repository artifact."
+    },
+    "technical_qa": {
+      "status": "blocked",
+      "reason": "10 PPTX slides, 10 notes and PDF render checked; no high-quality slide-by-slide aesthetic benchmark or native chart."
+    },
+    "microsoft_powerpoint_render": {
+      "status": "fail",
+      "reason": "Exported using LibreOffice rather than Microsoft PowerPoint."
+    },
+    "independent_review": {
+      "status": "fail",
+      "reason": "Creator self-reviewed; outside feedback did not inspect the actual files."
+    },
+    "human_acceptance": {
+      "status": "fail",
+      "reason": "User explicitly rejected v9: 'ficou horroroso'."
+    }
+  }
+}

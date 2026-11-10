@@ -59,6 +59,7 @@ Score de 1–5 por argumento, representação, composição, tipografia, ritmo, 
 - [Iteração 006: A v5 reprovada; alternativas com foco editorial](iterations/006-chart-focus.md)
 - [Iteração 007: rejeição da linguagem de UI, troca do pipeline para design-first](iterations/007-code-first-stop.md)
 - [Iteração 008: Logística, duas direções editoriais criadas no Canva](iterations/008-logistica-visual-first.md)
+- [Iteração 009: auditoria de rejeição da Logística v9 e portões de processo](iterations/009-logistica-v9-rejected.md)
 - [Referências externas verificáveis](research/visual-source-index.md)
 - [Catálogo de exemplos originais](../../examples/visual-casebook/README.md)
 
