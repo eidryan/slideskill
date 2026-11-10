@@ -4,7 +4,7 @@
 - Presentation: Monday 2026-10-05, around 15:00, hybrid (sala 444, Bloco E, or the Classroom link)
 - Adrian's part: "Exemplo de aplicação", based on Cruz Neto's dissertation (Mackenzie)
 - Classmates: Luisa (Bruni/Famá, ch. 13 to 15), Robert (Padoveze, Padoveze/Takakura)
-- Source: `C:\Users\adria\Downloads\admfin2\cruz_neto_dissertacao.pdf` (text: `cruz_neto.txt`, `=== pN ===` page markers)
+- Source: `<LOCAL_PATH>` (text: `cruz_neto.txt`, `=== pN ===` page markers)
 - Written: 2026-10-03
 
 ## 1. Thesis
@@ -156,7 +156,7 @@ Cut order if time runs short: D5, then D3 (use a screenshot), then reduce D1 to 
 ## 7. File layout
 
 ```
-C:\Users\adria\MaterialFactory\drafts\tep00147-apresentacao-quant\
+<LOCAL_PATH>
   sim.py              # D1 + D2, writes out/*.png and out/results.json
   params.py           # every parameter with its source (F#) or "premissa"
   pricing.html        # D3

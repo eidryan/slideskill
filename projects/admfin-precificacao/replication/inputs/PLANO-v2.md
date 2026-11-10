@@ -214,7 +214,7 @@ título. Sem ler o slide.
 | 6 | Slides 14, 15 e notas | 30 min |
 | 7 | validate.py, render no LibreOffice, revisão visual slide a slide | 30 min |
 | 8 | Checagem de conteúdo: cada número contra a leitura condensada ou o CSV; regras de estilo (sem travessão, sem "não é X, é Y", sem perguntas retóricas) | 15 min |
-| 9 | Enviar PPTX e PDF pelo Telegram | 5 min |
+| 9 | Enviar PPTX e PDF ao autor | 5 min |
 
 Total: cerca de 5 h. Ordem de corte se faltar tempo: notas detalhadas do slide 9, depois o
 slide 13 vira uma linha no 12, depois a mini tabela do slide 11.

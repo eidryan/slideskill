@@ -6,11 +6,11 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { Presentation, PresentationFile, FileBlob } from '@oai/artifact-tool';
 
-const ROOT = 'C:/Users/adria/tasks/admfin-v6-work';
-const SKILL = 'C:/Users/adria/.codex/plugins/cache/openai-primary-runtime/presentations/26.909.12148/skills/presentations';
-const PYTHON = 'C:/Users/adria/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
-process.env.RUNTIME_NODE_MODULES = 'C:/Users/adria/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
-process.env.RUNTIME_NODE = 'C:/Users/adria/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe';
+const ROOT = '<LOCAL_PATH>';
+const SKILL = '<LOCAL_PATH>';
+const PYTHON = '<LOCAL_PATH>';
+process.env.RUNTIME_NODE_MODULES = '<LOCAL_PATH>';
+process.env.RUNTIME_NODE = '<LOCAL_PATH>';
 const { finalizePresentation } = await import(pathToFileURL(path.join(SKILL, 'container_tools/artifact_tool_utils.mjs')));
 const content = JSON.parse(await fs.readFile(path.join(ROOT, 'content_v6.json'), 'utf8'));
 // Speaker notes as topics and keywords; the full speech lives in the script PDF.

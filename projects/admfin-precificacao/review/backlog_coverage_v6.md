@@ -1,7 +1,7 @@
 # Backlog coverage, Adm Fin v6
 
 Reviewer: independent Task 3 review, 2026-10-05.
-Backlog: `C:\Users\adria\tasks\plans\admfin\backlog-revalidacao-apresentacao-2026-10-05.md` (264 IDs).
+Backlog: `<LOCAL_PATH>` (264 IDs).
 Slide numbers 1-16 refer to `output/apresentacao_v6.pptx`. B1-B3 refer to `output/apresentacao_v6_backup_anexo2.pptx`. Page numbers refer to the original dissertation as marked in `dissertacao_condensada.md`.
 
 ## Totals
