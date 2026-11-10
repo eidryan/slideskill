@@ -22,6 +22,10 @@ Obtenha ou infira explicitamente: propósito, público, decisão/resultado desej
 7. **Produção.** Usar o renderizador disponível para o nível de exigência e formatos suportados. O script scripts/build_deck.mjs é apenas o motor inicial para os layouts de demonstração; não escolher formato inadequado apenas porque o gerador o suporta. Reaproveitar PptxGenJS/PowerPoint ou outro motor conforme necessário.
 8. **QA.** Ler docs/QA.md. Renderizar todas as páginas no aplicativo alvo quando possível; revisar fonte, clipping, sobreposição, hierarquia, contraste, conectores e editabilidade; revisar conteúdo contra fonte por passagem independente. Corrigir e renderizar novamente.
 
+## Gate experimental de visualização
+
+Para fenômenos físicos, transformações de estado e cortes espaciais, ler [docs/SEMANTIC_VISUALS.md](docs/SEMANTIC_VISUALS.md) e consultar exemplos **e antiexemplos** em [examples/visual-casebook/GALLERY.md](examples/visual-casebook/GALLERY.md). Especificar objetos, relações e fontes antes de produzir formas no PPTX; passos genéricos não são evidência física. Para casos difíceis, registrar uma iteração em [goals/slide-quality-loop/GOAL.md](goals/slide-quality-loop/GOAL.md), pesquisar alternativas e comparar o render com baseline. `scripts/validate_visual_plan.py` executa pré-flight semântico, mas não julga imagens.
+
 ## Saídas mínimas
 
 - Briefing + suposições.

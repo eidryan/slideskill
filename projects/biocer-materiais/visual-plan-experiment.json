@@ -1,0 +1,106 @@
+{
+  "iteration": "002-biocer-ab",
+  "status": "EXPERIMENTAL",
+  "semantic_color_register": {
+    "slate": "bioinertes",
+    "teal": "bioativas",
+    "amber": "reabsorviveis"
+  },
+  "slides": [
+    {
+      "id": "05",
+      "claim": "O vidro 45S5 tem módulo elástico mais próximo do osso cortical que as outras biocerâmicas listadas.",
+      "ontology": "magnitude",
+      "representation": "range_plot",
+      "units": "GPa",
+      "scale_status": "log",
+      "source_ids": [
+        "projects/biocer-materiais/data/propriedades.csv"
+      ],
+      "reference_ids": [
+        "01-intervalos-lineares"
+      ],
+      "visual_objects": [
+        "eixo",
+        "intervalos",
+        "rótulos"
+      ],
+      "visual_relations": [
+        "posição representa módulo",
+        "faixas representam valores mínimos e máximos"
+      ],
+      "why_selected": "Conservar escala e intervalos explícitos.",
+      "alternatives_rejected": [
+        "Cards de números sem base"
+      ],
+      "render_inspected": false
+    },
+    {
+      "id": "08",
+      "claim": "A transformação de grãos próximos à trinca gera expansão e dificulta seu avanço.",
+      "ontology": "physical_mechanism",
+      "representation": "microstructure_cross_section",
+      "source_ids": [
+        "projects/biocer-materiais/source/relatorio.md §4.2"
+      ],
+      "reference_ids": [
+        "03-trinca-microestrutura",
+        "04-dois-estados-fisicos"
+      ],
+      "visual_objects": [
+        "grãos",
+        "trinca",
+        "zona compressiva"
+      ],
+      "visual_relations": [
+        "trinca se aproxima da região transformada",
+        "expansão local altera tensões"
+      ],
+      "why_selected": "Mostrar relações físicas em vez de três etapas genéricas.",
+      "alternatives_rejected": [
+        "Círculos numerados sem microestrutura"
+      ],
+      "color_assignments": [
+        {
+          "role": "slate",
+          "meaning": "bioinertes"
+        }
+      ],
+      "render_inspected": false
+    },
+    {
+      "id": "10",
+      "claim": "O vidro bioativo 45S5 desenvolve interface de apatita após reações em fluido fisiológico.",
+      "ontology": "spatial_structure",
+      "representation": "annotated_layer_cross_section",
+      "source_ids": [
+        "projects/biocer-materiais/source/relatorio.md §4.5"
+      ],
+      "reference_ids": [
+        "02-corte-reativo-45s5"
+      ],
+      "visual_objects": [
+        "fluido",
+        "vidro",
+        "gel",
+        "fosfato de cálcio",
+        "apatita"
+      ],
+      "visual_relations": [
+        "gel na superfície do vidro",
+        "camada de apatita na interface com o fluido"
+      ],
+      "why_selected": "A estrutura física torna a tese visualmente verificável.",
+      "alternatives_rejected": [
+        "Cinco cartões iguais e uma seta por passo"
+      ],
+      "color_assignments": [
+        {
+          "role": "teal",
+          "meaning": "bioativas"
+        }
+      ],
+      "render_inspected": false
+    }
+  ]
+}
