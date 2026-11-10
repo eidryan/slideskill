@@ -5,6 +5,9 @@ description: Planeja, estrutura, desenha, gera e audita apresentações persuasi
 
 # Slide Director
 
+**PIVÔ 004 (prioridade máxima): direção de arte e evidência visual reais antes de desenho programático.** Ler docs/ART_DIRECTION_PIVOT.md e references/REAL_VISUAL_BOARD.md. Fotografias e micrografias autênticas são imagens incorporadas; texto, gráficos e anotações podem ser nativos/editáveis. NÃO usar círculos, hexágonos, cartões ou retângulos para simular objetos, tecidos ou fenômenos físicos. A antiga galeria SVG é legado estilístico rejeitado. O gerador scripts/build_deck.mjs serve para smoke test, NÃO é motor editorial padrão. Se faltar uma figura verificável, registrar BLOCKED_ASSET em vez de desenhar uma falsa. Acompanhar o goal em goals/slide-quality-loop/GOAL.md.
+
+
 Esta é uma skill de **direção**. Nunca inicie escolhendo tema, cores ou templates. Um deck deve passar pelas etapas abaixo. Carregue os documentos auxiliares apenas quando a etapa exigir (progressive disclosure).
 
 ## Entrada / briefing

@@ -18,6 +18,7 @@ jobs:
           python scripts/validate_manifest.py examples/demo-consulting.json
           python scripts/check_projects.py
           python scripts/check_visual_casebook.py
+          python scripts/validate_art_direction.py projects/biocer-materiais/art_direction_v4.json
           python scripts/validate_visual_plan.py projects/biocer-materiais/visual-plan-experiment.json
           python scripts/search_library.py --purpose explain_mechanism --relation decomposition --limit 3
           python -m unittest discover -s tests -v

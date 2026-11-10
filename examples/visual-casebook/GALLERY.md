@@ -1,3 +1,7 @@
+# LEGADO — GEOMETRIA EXPERIMENTAL REJEITADA
+
+A iteração 004 rejeitou este estilo de desenhos que lembra UI/HTML. Estes são **exemplos para crítica e regressão, não templates ou precedentes aprovados**. Veja [referências reais](../../references/REAL_VISUAL_BOARD.md).
+
 # Visual Casebook — 16 exemplos originais
 
 **São 12 candidatos e 4 antiexemplos intencionais.** Cada ficha contém quando usar, por que funciona e quando rejeitar. Não são modelos aprovados para uso automático. Não há slides externos copiados.

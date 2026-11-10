@@ -1,5 +1,7 @@
 # Árvore de decisão visual
 
+**Atenção ao pivô 004:** escolher a relação lógica NÃO determina que a evidência deva ser desenhada com shapes. Quando há objeto/microestrutura real, priorizar ativos e figuras verificáveis; ver [direção de arte](ART_DIRECTION_PIVOT.md). A árvore abaixo classifica informação, não obriga gráfico de cards.
+
 Esta árvore serve para **selecionar candidatos**, não para fixar layout automaticamente.
 
 ## Camada A — Qual é o trabalho do deck?
