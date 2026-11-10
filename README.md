@@ -4,6 +4,9 @@ Skill de **direção de apresentações**, não um pacote de templates. Primeiro
 
 ## Estado
 
+**Gate ativo 007:** o gerador de slides não pode escolher a composição por código em trabalho editorial. Antes do PPTX, o agente precisa produzir e obter aprovação de uma imagem de design e registrar o handoff; detalhes em [DESIGN_BEFORE_PPTX.md](docs/DESIGN_BEFORE_PPTX.md). A iteração 007 está **PENDING_DESIGN**; nenhuma nova versão visual foi aprovada.
+
+
 **Pivô 004:** a biblioteca visual antiga de SVG e o gerador de seis layouts são **legados experimentais**, não o caminho de produção. Consulte [direção de arte](docs/ART_DIRECTION_PIVOT.md), [board de figuras reais](references/REAL_VISUAL_BOARD.md) e [auditoria v3](goals/slide-quality-loop/iterations/004-html-look-pivot.md).
 
 
