@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 *.pptx
 !tests/fixtures/*.pptx
+!projects/admfin-precificacao/output/apresentacao_v7.pptx
