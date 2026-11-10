@@ -16,6 +16,7 @@ jobs:
       - name: Validate manifest and catalog
         run: |
           python scripts/validate_manifest.py examples/demo-consulting.json
+          python scripts/check_projects.py
           python scripts/search_library.py --purpose explain_mechanism --relation decomposition --limit 3
           python -m unittest discover -s tests -v
       - uses: actions/setup-node@v4

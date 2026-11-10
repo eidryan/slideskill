@@ -1,0 +1,20 @@
+# Logística: seminário "Efeito Chicote"
+
+- **Status:** em andamento. Existe plano e storyboard (v2), ainda sem deck gerado pelo método.
+- **O que este caso testa:** seminário curto (12 min de fala) com rubrica de avaliação, evidência calculada pelo grupo (tabela de indicadores e simulação) e tema conceitual que tenta virar deck de lista de tópicos.
+- **Modalidade:** apresentação oral, com perguntas.
+- **Idioma:** português do Brasil.
+
+## Arquivos
+
+| Arquivo | Conteúdo |
+|---|---|
+| `brief.md` | Propósito, rubrica, tempo e restrições |
+| `sources.md` | Fontes e itens ainda não verificados |
+| `storyboard.md` | Diagnóstico do rascunho v1 contra o método, SCQ, storyboard de 8 slides de conteúdo, execução em 10 passos |
+| `data/ec2-indicadores-walmart-macys.csv` | Indicadores calculados no estudo de caso que alimenta o slide 4 |
+| `outcome.md` | A preencher ao fechar |
+
+## Lição já registrada
+
+O rascunho v1 (12 slides) violava o método de seis formas: rótulos no lugar de títulos de ação, listas sem evidência, gráfico com valores inventados, mesma barra em todos os slides, texto fora de grade e conteúdo dentro do script. O diagnóstico está na seção 1 de `storyboard.md` e é um bom teste: a skill deve evitar esses erros sem ser lembrada.

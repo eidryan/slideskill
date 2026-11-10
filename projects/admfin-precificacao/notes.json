@@ -1,0 +1,178 @@
+{
+  "1": {
+    "topics": [
+      "Dissertação de Cruz Neto, Mackenzie, 2018",
+      "Como escritórios contábeis formam honorários: custo versus mercado",
+      "Percurso: problema, conceitos, método, resultados, conclusões",
+      "Anexo 1 (NIBO) só ilustra cálculos, sem vínculo documentado com as 11 entrevistadas"
+    ],
+    "keywords": ["honorários", "custo", "mercado", "exemplo ilustrativo"],
+    "next": "Preço, competitividade e continuidade"
+  },
+  "2": {
+    "topics": [
+      "Clientes com volumes e demandas diferentes, mercado competitivo",
+      "Copiar o preço de outro profissional ignora a estrutura do próprio escritório",
+      "Referências usadas: faturamento, nº de empregados, regime tributário, notas fiscais, honorário anterior",
+      "Pergunta: método MAIS UTILIZADO. Objetivo: método MAIS ADEQUADO (guardar a diferença)",
+      "Justificativa: preço bem mensurado sustenta competitividade e continuidade"
+    ],
+    "keywords": ["mais utilizado", "mais adequado", "custo x valor de mercado", "continuidade"],
+    "next": "Teoria da contingência"
+  },
+  "3": {
+    "topics": [
+      "Não há maneira universal de administrar: depende do contexto",
+      "Ambiente, estrutura e funcionamento se relacionam",
+      "Fatores de interesse: porte, estrutura, estratégia",
+      "Esquema conceitual, sem intensidades",
+      "Cuidado: os resultados não retomam a teoria para explicar diferenças"
+    ],
+    "keywords": ["contingência", "contexto", "porte", "estrutura", "estratégia"],
+    "next": "Classificação dos custos"
+  },
+  "4": {
+    "topics": [
+      "Critério 1, identificação: direto (associação objetiva) x indireto (rateio)",
+      "Critério 2, comportamento: fixo (intervalo relevante) x variável (acompanha a atividade)",
+      "Critérios independentes: fixo pode ser direto",
+      "Elementos básicos: materiais, mão de obra, gastos gerais de fabricação",
+      "Em serviços: peso da mão de obra e dos gastos de apoio"
+    ],
+    "keywords": ["direto", "indireto", "fixo", "variável", "mão de obra"],
+    "next": "Atividades do escritório"
+  },
+  "5": {
+    "topics": [
+      "19.169 organizações contábeis em SP, maio de 2018: argumento de concorrência",
+      "Recorrentes: escrituração contábil e fiscal, rotinas trabalhistas, honorário mensal semifixo",
+      "Não recorrentes: abertura e baixa, DECORE, consultoria, assessoria",
+      "Intangibilidade: atendimento e relatórios tornam a qualidade visível",
+      "Preço liga o trabalho necessário à utilidade percebida"
+    ],
+    "keywords": ["19.169", "recorrente", "semifixo", "intangível"],
+    "next": "Exemplo do Anexo 1"
+  },
+  "6": {
+    "topics": [
+      "Anexo 1, fonte NIBO: escritório-exemplo, sem vínculo com as 11 entrevistadas",
+      "Total mensal: R$ 24.768,69",
+      "Salários e encargos por departamento + rateio administrativo + rateio de fixos",
+      "Comum: R$ 1.896,27 adm + R$ 11.150,00 fixos (pró-labore R$ 5.100) = R$ 13.046,27, cerca de 53%",
+      "53% é cálculo meu; diferenças de centavos são do arredondamento do anexo",
+      "Não é percentual geral do setor"
+    ],
+    "keywords": ["rateio", "custo comum", "53%", "R$ 24.768,69"],
+    "next": "Bases para formar o preço"
+  },
+  "7": {
+    "topics": [
+      "Custo: realidade interna, gastos a recuperar + margem",
+      "Concorrência: referência externa; conferir se cobre gastos e retorno",
+      "Valor percebido: benefício que o cliente reconhece; exige comunicar",
+      "SESCAPLDR: custo a mais importante, concorrência a mais fácil e traiçoeira, valor a melhor forma",
+      "Nas entrevistas, custo e mercado aparecem juntos"
+    ],
+    "keywords": ["custo", "concorrência", "valor percebido", "SESCAPLDR", "coexistem"],
+    "next": "Precificação pelo custo"
+  },
+  "8": {
+    "topics": [
+      "Sequência: departamento, custo por unidade, custo do cliente, preço",
+      "Preço = gastos + tributos + margem",
+      "Anexo 1: R$ 2,33 fiscal, R$ 1,56 contábil, R$ 31,22 pessoal, POR UNIDADE",
+      "Anexo não nomeia a unidade: não dizer \"por empregado\"; custo unitário não é preço",
+      "ORGC1: software calcula custo por cliente + margem. ORGC7: volume e custo por departamento"
+    ],
+    "keywords": ["custo por unidade", "custo do cliente", "ORGC1", "ORGC7"],
+    "next": "Condições externas e cliente"
+  },
+  "9": {
+    "topics": [
+      "Mercado: oferta, procura, região, segmento",
+      "Copiar concorrente pode não cobrir os gastos",
+      "Valor percebido: benefício x custo de contratar (dinheiro, tempo, esforço)",
+      "Variáveis: econômicas, mercadológicas, societárias, tributárias + custos",
+      "Mercado limita o preço, então gestão de custos ganha peso. Não há receita única"
+    ],
+    "keywords": ["oferta e procura", "valor percebido", "variáveis do preço", "receita única"],
+    "next": "Como a pesquisa foi feita"
+  },
+  "10": {
+    "topics": [
+      "Qualitativa, exploratória, Estado de SP, amostra não probabilística",
+      "DECLARADO: 11 entrevistas com sócios, dez/2017 a dez/2018",
+      "OBSERVADO: 109 contratos, 2004 a 2017, cláusulas de preço",
+      "Também: bibliografia, sites, análise categorial",
+      "Vínculo contratos x entrevistados não documentado; sem generalização estatística"
+    ],
+    "keywords": ["qualitativa", "11 entrevistas", "109 contratos", "declarado x observado"],
+    "next": "Variáveis e construtos"
+  },
+  "11": {
+    "topics": [
+      "Porte: clientes e colaboradores",
+      "Estrutura: departamentos e hierarquia",
+      "Estratégia: como o mercado reconhece a empresa",
+      "Diversificação: tipos de serviço e diferencial",
+      "Capítulo de método usa 4 (resumo cita 2). Intenção de investigar não é resultado demonstrado"
+    ],
+    "keywords": ["porte", "estrutura", "estratégia", "diversificação"],
+    "next": "Três construtos"
+  },
+  "12": {
+    "topics": [
+      "Preço e precificação: justiça do honorário, método, ferramentas",
+      "Desempenho: método cita margem bruta, EBIT, ROE, ROI",
+      "Mas resultados trazem prazos, tarefas, satisfação: percepção dos gestores",
+      "Satisfatório não prova retorno financeiro superior",
+      "Custos: composição, mão de obra, controles; custeio por absorção, variável, ABC"
+    ],
+    "keywords": ["preço", "desempenho", "custos", "EBIT/ROE/ROI", "percepção"],
+    "next": "Perfil das organizações"
+  },
+  "13": {
+    "topics": [
+      "11 sociedades limitadas, 6 a 400 colaboradores, média de 120 clientes",
+      "Estrutura: fiscal, contábil, pessoal/RH + administrativo",
+      "Estratégia: qualidade, relacionamento, indicações; site, redes, eventos",
+      "Todas oferecem contábil, fiscal e pessoal; algumas consultoria, assessoria, DECORE",
+      "Resultado descritivo: não mostra variável explicando o método"
+    ],
+    "keywords": ["Ltda", "6 a 400", "120 clientes", "descritivo"],
+    "next": "Construtos e contratos"
+  },
+  "14": {
+    "topics": [
+      "Preço: custo interno (mão de obra) + despesas + margem",
+      "Só 1 afirma segurança no custo isolado; 10 também olham o mercado",
+      "Justiça do honorário: percepção negativa dos clientes na síntese do autor",
+      "Desempenho satisfatório e percebido; sem comparação de margem, EBIT, ROE, ROI",
+      "Custos em 4 níveis: ORGC6 escritório, ORGC7 departamento, ORGC1 cliente, ORGC2 falta por colaborador",
+      "43 de 109 contratos: salário mínimo, que o autor chama de mercado; outros 66 sem detalhe"
+    ],
+    "keywords": ["1 de 11", "43 de 109", "salário mínimo", "quatro níveis", "relatos individuais"],
+    "next": "Conclusão e limites"
+  },
+  "15": {
+    "topics": [
+      "Autor: custo efetivamente incorrido, mercado como complemento",
+      "Pergunta (mais utilizado), objetivo (mais adequado), conclusão (melhor): alcances diferentes",
+      "Sem comparação financeira entre métodos; desempenho percebido (o próprio autor diz)",
+      "Contingência não orienta a interpretação; NIBO só ilustra",
+      "Pesquisa futura: comparar resultado financeiro de quem precifica por custo x mercado"
+    ],
+    "keywords": ["custo incorrido", "complemento", "percebido", "pesquisa futura"],
+    "next": "Referências"
+  },
+  "16": {
+    "topics": [
+      "Fonte principal: dissertação de Cruz Neto",
+      "Demais autores consultados por meio dela",
+      "Exemplo de alocação: Anexo 1, NIBO",
+      "Agradecer e abrir para perguntas"
+    ],
+    "keywords": ["Cruz Neto (2018)", "obrigado"],
+    "next": "Discussão"
+  }
+}

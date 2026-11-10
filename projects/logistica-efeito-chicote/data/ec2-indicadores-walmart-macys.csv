@@ -1,0 +1,10 @@
+indicador,walmart,macys,formula
+ROE,23.26%,19.80%,Lucro liquido / Patrimonio liquido
+ROA,9.46%,7.02%,LGA / Ativo total
+ROI,14.73%,11.36%,LGA / Capital investido
+GE (giro de estoque),8.05,3.12,CMV / Estoques
+Semanas de estoque,6.46,16.69,52 / GE
+Semanas de recebiveis,0.75,0.70,52 / ART
+Semanas de pagaveis,8.72,15.57,52 / APT
+C2C (semanas),-1.51,1.82,52/GE + 52/ART - 52/APT
+EVA (US$ mi),8155,373,(ROI - 8.48%) x Capital investido

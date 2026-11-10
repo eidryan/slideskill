@@ -13,6 +13,7 @@ Skill de **direção de apresentações**, não um pacote de templates. Primeiro
 3. Consulte [docs/DECISION_TREE.md](docs/DECISION_TREE.md) antes de escolher layouts.
 4. Use [references/catalog.jsonl](references/catalog.jsonl) como biblioteca semântica inicial; registros são **exemplos originais de método**, não capturas de decks externos.
 5. Veja o manifesto em [examples/demo-consulting.json](examples/demo-consulting.json).
+6. Veja os casos reais e como adicionar o seu em [projects/](projects/README.md). Regras editoriais comuns: [projects/_shared/editorial-rules.md](projects/_shared/editorial-rules.md).
 
 ## Instalação
 
@@ -25,12 +26,17 @@ Requisitos: Python 3.10+ e Node.js 20+. O validador e a busca usam apenas Python
 ~~~bash
 python3 scripts/search_library.py --purpose explain_mechanism --relation decomposition --limit 3
 python3 scripts/validate_manifest.py examples/demo-consulting.json
+python3 scripts/check_projects.py
 python3 -m unittest discover -s tests -v
 npm install
 npm run build:demo
 ~~~
 
 O arquivo gerado fica em dist/demo-consulting.pptx (não versionado). É um **primeiro gerador com layouts limitados**, não prova de qualidade editorial. Faça renderização e revisão manual no PowerPoint antes de usar com clientes.
+
+## Projetos
+
+`projects/` guarda casos de teste, um por pasta: briefing, fontes, storyboard, conteúdo auditado, QA e resultado. `projects/_template/` é o ponto de partida; `projects/admfin-precificacao/` é o caso aprovado usado como regressão; `projects/logistica-efeito-chicote/` está em andamento. O repositório é público, então cada projeto segue as regras de privacidade e direitos de [projects/README.md](projects/README.md).
 
 ## Princípios
 
