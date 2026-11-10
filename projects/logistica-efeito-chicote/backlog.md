@@ -2,7 +2,7 @@
 
 **Etapa:** 1 de 8. **Status:** BLOCKED_SOURCE / DRAFT, **não aprovado**. **Data:** 2026-11-10.
 
-**Atenção:** este arquivo registra EXCLUSIVAMENTE requisitos rastreáveis no briefing e material secundário já no repositório, nas instruções atuais e na auditoria da v9. NÃO representa extração completa do `Modelo_Entrega_Logistica_Grupo2.pdf` nem do histórico do WhatsApp, que ainda não foram obtidos. Não marcar como ETAPA 1 CONCLUÍDA e não começar fontes/prova/storyline até revisão e aprovação humana.
+**Atenção:** este arquivo registra EXCLUSIVAMENTE requisitos rastreáveis no briefing e material secundário já no repositório, nas instruções atuais e na auditoria da v9. NÃO representa extração completa do `Modelo_Entrega_Logistica_Grupo2.pdf` nem do histórico do mensagens, que ainda não foram obtidos. Não marcar como ETAPA 1 CONCLUÍDA e não começar fontes/prova/storyline até revisão e aprovação humana.
 
 ## Inventário da Etapa 1 / condição G0
 
@@ -16,7 +16,7 @@
 | B6 | `projects/_shared/editorial-rules.md`, seções 1 e 7 | Lidas na `main` | Regras editoriais |
 | B7 | PR #16: `projects/admfin-precificacao/replication/pptxgenjs-v7/build_v7.mjs` | Código lido em `refs/pull/16/head`, PR continua aberto | Apenas referência para etapa de build, não usado nem alterado |
 | P1 | **`Modelo_Entrega_Logistica_Grupo2.pdf`** | **NÃO LOCALIZADO** entre anexos, Biblioteca e repositório | **Obrigatório e bloqueante para completude** |
-| P2 | **Chat WhatsApp `Logística` do Grupo 2** | Aba WhatsApp visível no navegador, mas apenas lista de conversas; conversa não aberta nem exportada e skill `whatsapp-chat` indisponível | **Obrigatório e bloqueante para completude** |
+| P2 | **Chat mensagens `Logística` do Grupo 2** | Aba mensagens visível no navegador, mas apenas lista de conversas; conversa não aberta nem exportada e skill `skill de chat do grupo` indisponível | **Obrigatório e bloqueante para completude** |
 
 Conferência: as buscas por nome exato do PDF na Biblioteca, na conversa e no repo retornaram **zero ocorrências do PDF**. Nenhuma mensagem completa da conversa do Grupo 2 foi recuperada. O texto de prévia `vou fazendo o do seminario aqui` não estabelece requisitos e não foi transcrito como regra.
 
@@ -75,7 +75,7 @@ Status `EXTRAÍDO_SECUNDÁRIO` significa que a exigência foi citada em briefing
 | Código | Falta | Ação necessária |
 |---|---|---|
 | P1 | PDF original do modelo do professor | Anexar `Modelo_Entrega_Logistica_Grupo2.pdf` ou disponibilizá-lo em fonte acessível; extrair literalmente todos os critérios adicionais e mapear aos IDs |
-| P2 | Histórico da conversa WhatsApp do Grupo 2 | Disponibilizar exportação ou acesso legível à conversa específica, para obter decisões, nomes/atribuições, datas e demandas reais; não inferir da prévia da lista |
+| P2 | Histórico da conversa mensagens do Grupo 2 | Disponibilizar exportação ou acesso legível à conversa específica, para obter decisões, nomes/atribuições, datas e demandas reais; não inferir da prévia da lista |
 | P3 | Confirmação/alteração de requisitos após o PDF e chat | Rodar diff do backlog, gerar novos IDs sem renumerar existentes e registrar cobertura/origem |
 | P4 | Aprovação humana explícita do backlog fechado | Marcar gate G1 PASS apenas após reconciliação e aprovação |
 
