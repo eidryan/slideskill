@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "iteration": "005",
+  "assets": [
+    {
+      "id": "hip-photo",
+      "type": "photo",
+      "status": "blocked",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hip_prosthesis.jpg",
+      "creator": "Nuno Nogueira",
+      "license": "Wikimedia file page, public domain (recheck at ingestion)",
+      "supported_claim": "Componentes visíveis da prótese fotografada.",
+      "unsupported_claim": "Não comprova revestimento HA nem desgaste clínico.",
+      "blocker": "Imagem não foi baixada e bytes não foram verificados.",
+      "local_path": null,
+      "sha256": null
+    },
+    {
+      "id": "ytzp-sem",
+      "type": "scientific_figure",
+      "status": "blocked",
+      "source_page": "https://www.mdpi.com/2076-3417/12/18/9088",
+      "creator": "Kim et al. (2022)",
+      "license": "CC BY 4.0 para o artigo; verificar figura na ingestão",
+      "supported_claim": "Trincas sob indentação em espécimes do estudo, se a figura original for obtida.",
+      "unsupported_claim": "Não mede compressão, expansão volumétrica ou transformação de fase.",
+      "blocker": "Importação falhou; imagens produzidas externamente não têm procedência confirmada.",
+      "local_path": null,
+      "sha256": null
+    }
+  ]
+}

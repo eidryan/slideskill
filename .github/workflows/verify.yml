@@ -19,6 +19,7 @@ jobs:
           python scripts/check_projects.py
           python scripts/check_visual_casebook.py
           python scripts/validate_art_direction.py projects/biocer-materiais/art_direction_v4.json
+          python scripts/validate_source_assets.py projects/biocer-materiais/source_assets_v5.json
           python scripts/validate_visual_plan.py projects/biocer-materiais/visual-plan-experiment.json
           python scripts/search_library.py --purpose explain_mechanism --relation decomposition --limit 3
           python -m unittest discover -s tests -v
