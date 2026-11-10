@@ -1,0 +1,45 @@
+{
+  "iteration": "006",
+  "status": "experimental_not_approved",
+  "source": "projects/biocer-materiais/data/propriedades.csv",
+  "claim": "Faixas de módulo elástico de osso cortical e vidro bioativo 45S5 tocam-se em 30 GPa",
+  "focus": [
+    {
+      "material": "Osso cortical",
+      "gpa": [
+        7,
+        30
+      ]
+    },
+    {
+      "material": "Vidro 45S5",
+      "gpa": [
+        30,
+        40
+      ]
+    }
+  ],
+  "other_materials": "omitidos do eixo focal 0-50, com nota informativa sobre HA densa iniciando em 70 GPa",
+  "alternatives": [
+    {
+      "id": "C1",
+      "medium": "range_plot",
+      "scale": "linear 0-50 GPa",
+      "role": "evidence",
+      "human_review": "pending"
+    },
+    {
+      "id": "C2",
+      "medium": "typographic_synthesis",
+      "scale": "not a chart",
+      "role": "oral_transition",
+      "human_review": "pending"
+    }
+  ],
+  "warnings": [
+    "Não inferir equivalência clínica",
+    "Não tratar faixa focal como visão completa do conjunto"
+  ],
+  "visual_check": "render PDF LibreOffice e inspeção manual; sobreposição inicial corrigida",
+  "powerpoint_check": "NOT_VERIFIED"
+}
