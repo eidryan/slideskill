@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1-design-handoff",
+  "iteration": "007",
+  "project": "projects/biocer-materiais",
+  "stage": "PENDING_DESIGN",
+  "claim": "Osso cortical (7–30 GPa) e vidro bioativo 45S5 (30–40 GPa) tocam-se em 30 GPa.",
+  "source_data": [
+    "projects/biocer-materiais/data/propriedades.csv"
+  ],
+  "precedents": [
+    {
+      "id": "sp-editorial",
+      "url": "https://github.com/henryhyw/slidepoise/tree/main/examples/personal-thinking-system",
+      "learning": "Estudar direção de arte realmente montada por imagem, não copiar os ativos."
+    },
+    {
+      "id": "sp-consulting",
+      "url": "https://github.com/henryhyw/slidepoise/tree/main/examples/consulting-ai-transformation",
+      "learning": "Estudar workflow de precedentes, composição e reconstrução."
+    },
+    {
+      "id": "dw-range",
+      "url": "https://www.datawrapper.de/academy/examples-of-datawrapper-dot-charts",
+      "learning": "Estudar gráficos de faixas verdadeiramente publicados com annotations."
+    }
+  ],
+  "candidates": [],
+  "selected": null,
+  "human_review": {
+    "status": "pending",
+    "record_url": null
+  },
+  "reconstruction": "Somente após aprovação: gráfico de dados do CSV editável no PPTX, sem falsificar material físico.",
+  "blocked_reason": "Nenhuma imagem de design independente foi produzida e aprovada; geração anterior partiu de código."
+}
