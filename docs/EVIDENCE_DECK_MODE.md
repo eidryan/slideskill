@@ -93,6 +93,7 @@ O PPTX aprovado está em `projects/admfin-precificacao/output/apresentacao_v7.pp
 
 ## Lacunas conhecidas
 
-- A exportação por COM do PowerPoint para PDF e o áudio edge-tts foram feitos ad hoc na sessão; não há script guardado.
-- `build_v6.mjs` e `build_v7.mjs` dependem do runtime `@oai/artifact-tool`; um port para PptxGenJS não existe.
+- O áudio edge-tts de ensaio foi feito na sessão e não há script guardado.
 - A dissertação usada como fonte e os PDFs de referência não estão no repositório.
+- O port `replication/pptxgenjs-v7/build_v7.mjs` reproduz o v7 em PptxGenJS (layout, notas, gráfico), mas as coordenadas e os textos de título são específicos do caso Adm Fin. Para outro deck, copie a estrutura (manifesto, título de ação, layout por relação, tracker) e troque o conteúdo.
+- No PptxGenJS o formato numérico do gráfico segue a localidade do computador; o port grava os rótulos como texto pt-BR no XML do gráfico para evitar "3,443.38".
