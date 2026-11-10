@@ -5,6 +5,8 @@ description: Planeja, estrutura, desenha, gera e audita apresentações persuasi
 
 # Slide Director
 
+**GATE DE PROVENIÊNCIA 005:** para foto/micrografia publicada, requerer arquivo original, autor, licença, URL e hash SHA256 antes de inserir como evidência factual. Rodar `scripts/validate_source_assets.py <manifesto> --require-ready`. Falha na obtenção da fonte significa BLOCKED_ASSET, nunca substituir por SEM/imagem clínica gerada artificialmente. Ver log da iteração 005.
+
 **PIVÔ 004 (prioridade máxima): direção de arte e evidência visual reais antes de desenho programático.** Ler docs/ART_DIRECTION_PIVOT.md e references/REAL_VISUAL_BOARD.md. Fotografias e micrografias autênticas são imagens incorporadas; texto, gráficos e anotações podem ser nativos/editáveis. NÃO usar círculos, hexágonos, cartões ou retângulos para simular objetos, tecidos ou fenômenos físicos. A antiga galeria SVG é legado estilístico rejeitado. O gerador scripts/build_deck.mjs serve para smoke test, NÃO é motor editorial padrão. Se faltar uma figura verificável, registrar BLOCKED_ASSET em vez de desenhar uma falsa. Acompanhar o goal em goals/slide-quality-loop/GOAL.md.
 
 

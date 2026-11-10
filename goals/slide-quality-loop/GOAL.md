@@ -55,6 +55,7 @@ Score de 1–5 por argumento, representação, composição, tipografia, ritmo, 
 - [Iteração 002: padrões visuais e testes A/B](iterations/002-visual-ab.md)
 - [Iteração 003: deck completo, render e revisão](iterations/003-biocer-full-deck.md)
 - [Iteração 004: pivô de linguagem visual após rejeição humana](iterations/004-html-look-pivot.md)
+- [Iteração 005: piloto com gerador visual externo e gate de proveniência](iterations/005-asset-first-pilot.md)
 - [Referências externas verificáveis](research/visual-source-index.md)
 - [Catálogo de exemplos originais](../../examples/visual-casebook/README.md)
 
