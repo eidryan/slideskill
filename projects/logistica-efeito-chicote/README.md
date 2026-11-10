@@ -28,3 +28,7 @@ O rascunho v1 (12 slides) violava o método de seis formas: rótulos no lugar de
 - [Log de QA e falhas](../../goals/slide-quality-loop/iterations/008-logistica-visual-first.md)
 
 **Importante:** o deck A requer correção de 'C2C' (ciclo de conversão de caixa) e de duas palavras antes de uso na apresentação. Imagens contextuais não provam o mecanismo. Aguarda escolha/revisão humana.
+
+## Regressão negativa (v9)
+
+A tentativa de aplicar a gramática do Adm Fin v7 diretamente a um novo deck de logística foi **rejeitada pelo usuário**. Não a usar como template positivo. [Postmortem e falhas por slide](../../goals/slide-quality-loop/iterations/009-logistica-v9-rejected.md) · [Portões de release v9](reviews/v9-gates.json).

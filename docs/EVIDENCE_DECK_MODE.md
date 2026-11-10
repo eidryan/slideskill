@@ -4,6 +4,31 @@ Este é o modo padrão para decks de argumento (acadêmicos, executivos, propost
 
 Caso de referência: `projects/admfin-precificacao/` (16 slides, aprovado em 05/10/2026, "gostei de como ficou"). Veja `output/thumbnails/` e `output/apresentacao_v7.pdf`.
 
+## Portões obrigatórios para começar e entregar um NOVO deck
+
+**Esta checklist precede a escolha de template, tipografia ou ferramentas.** Adm Fin v7 é uma aprovação do caso Adm Fin, não aprovação automática de decks que copiem Arial/marinho/tracker.
+
+| Gate | Evidência de entrada/saída exigida | Se faltar |
+|---|---|---|
+| G0 · Fonte | Inventário com material do professor/autor, arquivos, datas, números e lacunas | BLOCKED_SOURCE |
+| G1 · Feedback | Backlog de pedidos e críticas com IDs, prioridade e cobertura final para cada ID | BLOCKED_BACKLOG |
+| G2 · Argumento | Uma tese, SCQA, storyline e leitura sequencial dos títulos, antes do primeiro layout | BLOCKED_STORY |
+| G3 · Evidência | Storyboard: cada título → claim → dado/figura que prova → fonte → inferência proibida → cortes | BLOCKED_EVIDENCE |
+| G4 · Referências visuais | 2–3 decks reais examinados em imagem/página; comparar densidade e codificação, não só citar nomes | BLOCKED_REFERENCE |
+| G5 · Produção | Conteúdo revisado e congelado em manifesto separado; gerar versão segura; aplicar construção visual por relação lógica | BLOCKED_BUILD |
+| G6 · Gráficos | Se a página é gráfico quantitativo editável: objeto de gráfico nativo/Excel; shapes só se declarados como desenho estático | BLOCKED_CHART |
+| G7 · QA real | PPTX aberto e renderizado no Microsoft PowerPoint, imagens de todas as páginas, formatos pt-BR e clipping conferidos | BLOCKED_POWERPOINT |
+| G8 · Independência | Revisor diferente do criador compara dados, citações, tese e layout com as fontes e registra achados | BLOCKED_REVIEW |
+| G9 · Aprovação | Decisão humana explícita; o criador não pode autoaprovar estética; guardar status e problemas residuais | BLOCKED_APPROVAL |
+
+**Regra de entrega:** uma planilha de checks ou CI estrutural nunca é substituto dos gates G7–G9. Na ausência de PowerPoint ou revisor externo, registrar bloqueio e entregar apenas como EXPERIMENTO, sem anunciar apresentação pronta.
+
+**Validação estrutural reproduzível:** preencher um manifesto evidence-gates-v1, executar python scripts/validate_evidence_release.py <manifesto> e, para publicação, repetir com --release. Este teste apenas verifica artefatos e bloqueios declarados; não detecta layouts feios nem verifica fatos sem revisor.
+
+### Antiexemplo de regressão: Logística v9
+
+A tentativa de reproduzir Adm Fin v7 com fontes/cores/tracker e um gráfico desenhado em retângulos foi rejeitada. Ver goals/slide-quality-loop/iterations/009-logistica-v9-rejected.md e projects/logistica-efeito-chicote/reviews/v9-gates.json. **Não gerar mais um v10 diretamente das coordenadas de v9.**
+
 ## Sequência que produziu o v7
 
 1. **Backlog por ID.** O feedback do autor (cerca de 20 min de voz) foi dividido em 264 IDs antes de qualquer plano. No fim cada ID recebeu um estado: implementado, backup, excluído por decisão ou resolvido na fonte (`review/backlog_coverage_v6.md`).
