@@ -42,6 +42,8 @@ jobs:
               assert any(p.startswith("ppt/notesSlides/notesSlide") and p.endswith(".xml") for p in files), "speaker notes absent"
           print("PPTX package structurally valid; visual QA still required")
           PY
+      - name: Block off-slide PPTX objects in the demo
+        run: python scripts/inspect_pptx_geometry.py dist/demo-consulting.pptx --require-notes --strict
       - name: Publish PPTX demo artifact
         uses: actions/upload-artifact@v4
         with:

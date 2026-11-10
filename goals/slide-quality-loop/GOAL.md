@@ -53,6 +53,7 @@ Score de 1–5 por argumento, representação, composição, tipografia, ritmo, 
 
 - [Iteração 001: cold-run e pesquisa](iterations/001-biocer-analysis.md)
 - [Iteração 002: padrões visuais e testes A/B](iterations/002-visual-ab.md)
+- [Iteração 003: deck completo, render e revisão](iterations/003-biocer-full-deck.md)
 - [Referências externas verificáveis](research/visual-source-index.md)
 - [Catálogo de exemplos originais](../../examples/visual-casebook/README.md)
 
