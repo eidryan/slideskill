@@ -12,6 +12,13 @@ Skill de **direção de apresentações**, não um pacote de templates. Primeiro
 
 **v0.1 — fundação em desenvolvimento.** Inclui método, árvore de decisão, catálogo inicial de 12 precedentes originais, manifesto de exemplo, scripts de busca/validação e um gerador simples de PowerPoint. Não afirma reproduzir automaticamente o visual de consultorias, nem indexar a biblioteca privada de ~4.200 arquivos descrita no briefing. O acervo privado não foi importado.
 
+## Novo: modo template, estratégia de imagens e briefing para outro agente
+
+- [Modo template](docs/TEMPLATE_FIRST_MODE.md): partir de um template pronto e extrair o design system inteiro antes do slide.
+- [Estratégia de imagens](docs/IMAGE_STRATEGY.md): equilíbrio entre foto real, banco de qualidade, figura de artigo aberto e diagrama; portão de curadoria.
+- [Como briefar outro agente](docs/AGENT_BRIEFING.md): contexto rico sem vazar a estrutura do deck antigo. Exemplo vivo em [projects/biocer-materiais/AGENT_BRIEF.md](projects/biocer-materiais/AGENT_BRIEF.md).
+- `python scripts/check_image_quality.py deck.pptx --min-slides-with-image 8`: mede dpi e cobertura de imagens.
+
 ## Comece aqui
 
 1. Leia [SKILL.md](SKILL.md) para acionar o fluxo do agente.

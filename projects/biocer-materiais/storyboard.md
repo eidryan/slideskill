@@ -1,3 +1,5 @@
+> **HISTÓRICO, NÃO LER PARA DESENHAR.** Proposta da fase v1 (18/11/2026 em diante o caso usa template e briefing novo). Ela herda a estrutura do deck antigo e uma direção visual (Arial, marinho, cor por classe) que o autor trocou pelo template de `template/DESIGN-SYSTEM.md`. Fica aqui para auditoria. O agente que desenha começa por `AGENT_BRIEF.md`.
+
 # Storyboard e direção visual: biocerâmicas
 
 Proposta de partida para redesenhar o deck v1, ainda sem aprovação dos autores. O modelo pode discordar se justificar. Os números vêm de `data/` e de `source/relatorio.md`.

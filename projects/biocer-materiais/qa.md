@@ -1,3 +1,5 @@
+> Os números de slide nesta lista são do deck antigo e **não devem guiar a estrutura do deck novo**. Os pontos de conteúdo abertos estão reescritos por conceito em `AGENT_BRIEF.md`, seção 5.
+
 # QA: conteúdo conferido antes do redesenho (09/11/2026)
 
 Conferência do relatório e do deck v1 antes do redesenho. Não houve acesso aos artigos citados, só ao texto do relatório. O que está abaixo é o que foi checado e o que ficou aberto.

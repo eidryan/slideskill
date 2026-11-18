@@ -30,3 +30,7 @@ A lista completa e a formatação ABNT estão em `source/relatorio.md`, seção 
 - Alumina com 380 GPa na tabela e 380 a 400 no gráfico do slide 5.
 - ASTM F1185-03 está na lista, mas não é citada no texto.
 - Edição do Callister (a disciplina lista a de 2016).
+
+## Imagens (a preencher pelo agente que desenha)
+
+Cada imagem entra aqui com: arquivo original, autor, título, ano, licença, URL ou DOI, resolução, SHA256 e o slot em que foi usada. Famílias e metas em `docs/IMAGE_STRATEGY.md`. Candidatas de busca: Europe PMC e PubMed Central (acesso aberto, CC BY), Wikimedia Commons, Pexels e Unsplash. Nada está aprovado ainda.

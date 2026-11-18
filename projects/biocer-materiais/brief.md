@@ -27,14 +27,16 @@ As biocerâmicas se dividem pela resposta do tecido (inerte, bioativa, reabsorv�
 
 ## Restrições
 
-- **Mudar o mínimo de conteúdo.** O redesenho troca títulos, layouts e gráficos. Números, fórmulas, referências e a ordem dos slides ficam como estão.
+- **Fatos congelados, estrutura livre** (mudou em 18/11/2026). Números, fórmulas, unidades, nomes técnicos e referências ficam como estão no relatório. A ordem, a quantidade (14 a 18 slides para 20 minutos) e a forma dos slides são decisão do agente que desenha, guiado por `AGENT_BRIEF.md`. Entregar o deck antigo como ponto de partida limitou o resultado, por isso o agente não o recebe.
+- **Missão do autor:** slides dinâmicos, visíveis e didáticos, com equilíbrio de fotos reais, imagens de banco de qualidade, figuras de artigos científicos de acesso aberto e diagramas onde explicam. Ver `docs/IMAGE_STRATEGY.md`.
+- **Template escolhido pelo autor:** ver `template/DESIGN-SYSTEM.md` e `docs/TEMPLATE_FIRST_MODE.md`. Sem nome de apresentador nos slides.
 - Regras de escrita em `../_shared/editorial-rules.md`.
 - Deve parecer feito à mão por um aluno cuidadoso, não gerado. Ver os sinais de "cara de IA" em `../_shared/editorial-rules.md`.
 - O relatório (21 páginas) é a fonte. Nada novo entra no slide sem estar nele.
-- Ênfase de Engenharia de Produção: processo de fabricação, controle de qualidade e o caso de 2001 (slide 12).
+- Ênfase de Engenharia de Produção: processo de fabricação, controle de qualidade e o caso de 2001.
 
 ## Pontos em aberto
 
 - Os ajustes de `qa.md` (alumina 380 a 400 no gráfico e 380 na tabela; referência ASTM F1185 sem citação no texto; edição do Callister).
 - Os 3 autores precisam aprovar o novo visual antes de ele substituir o deck v1.
-- Não há arquivo-fonte do deck v1, só o PDF. O redesenho parte do texto extraído.
+- Não há arquivo-fonte do deck v1, só o PDF. O agente que desenha não lê o v1: parte de `source/relatorio.md`, `data/` e `AGENT_BRIEF.md`.

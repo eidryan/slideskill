@@ -92,3 +92,12 @@ Vistos no deck v1 do caso `biocer-materiais`. Se aparecerem, o redesenho não te
 - Pergunta retórica na abertura.
 - O mesmo destaque colorido usado para coisas diferentes. Quando uma classificação organiza o deck (por exemplo, a resposta do tecido), a cor pode marcar a classe, e só ela.
 
+## 10. Lições do modo template e das imagens (caso biocer-materiais, 18/11/2026)
+
+- **Template é a casca inteira.** Cor e fonte sem aba de título, marcador de página, rodapé, molduras e divisores não são template. Extraia a estrutura (`docs/TEMPLATE_FIRST_MODE.md`).
+- **A origem do sistema visual é nova**, não o deck anterior do autor, a menos que ele peça.
+- **Fontes originais importam.** Fonte do sistema como primeira opção foi percebida e reprovada. Resolver incorporação ou PDF antes de montar.
+- **Imagem é missão, não enfeite.** Metas de equilíbrio e curadoria humana de pranchas de contato em `docs/IMAGE_STRATEGY.md`. Resolução passar não prova qualidade.
+- **Rodapé sem nome de apresentador.** Quem fala vai nas notas.
+- **Não entregar a outro agente o deck pronto de outra pessoa.** Ele só troca a roupa. Briefing por conceito, sem a estrutura antiga (`docs/AGENT_BRIEFING.md`).
+- **Título de ação sobre aba curta.** Quando o template tem título curto, a aba leva o nome da seção e a frase-conclusão vai logo abaixo.
